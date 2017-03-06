@@ -10,8 +10,8 @@ package dip.lab3;
  * @author ltrinastic
  */
 public class MessageService {
-    Input input;
-    Output output;
+    private Input input;
+    private Output output;
 
     public MessageService(Input input, Output output) {
         this.input = input;
